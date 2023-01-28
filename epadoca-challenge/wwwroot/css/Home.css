@@ -1,0 +1,161 @@
+﻿/* //////////////////////////////////////////////////////       HEADER   ///////////////////////////////////////////////////// */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  border: none !important;
+}
+
+.navbar-brand {
+    margin-right: 240px;
+}
+
+.epadoca-logo {
+  width: 300px !important;
+  height: 69.72px !important;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+
+.nav-link {
+  transition: all ease 0.2s;
+  color: #ffad02 !important;
+  font-family: "Montserrat" sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 475px) {
+  .epadoca-logo {
+    width: 200px !important;
+    object-fit: contain;
+  }
+
+  a.navbar-brand {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 1px !important;
+  }
+
+  a.navbar-brand {
+    margin-right: 30px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding: 20px !important;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+
+    align-self: center;
+  }
+
+  .nav-item:hover {
+    background: black;
+  }
+
+  .nav-link {
+    align-self: center !important;
+  }
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////       MAIN   ///////////////////////////////////////////////////// */
+
+.main {
+  margin-top: 98px;
+  background: #E9ECEF;
+}
+
+
+.containerFlex {
+    display: flex;
+
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: column;
+  height: 100vh;
+  width: 100% !important;
+  padding: 80px 200px;
+}
+
+.title {
+    display :flex;
+    flex-direction: column;
+    font-size:47px;
+    margin-bottom: 40px;
+}
+
+.titleText {
+    max-width: 600px;
+}
+
+.paragrah {
+    display :flex;
+    flex-direction: column;
+    gap: 60px;
+
+    font-size: 22px;
+    font-weight: 400;
+    text-shadow: 0px 0px 10px rgb(21 4 4 / 15%);
+}
+
+
+
+.strongTitle {
+    color: #FFAD02;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.containerImage {
+    display: flex;
+    align-items:center;
+    justify-items:center;
+    width: 100%;
+    
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  
+}
+
+@media (max-width: 1024px) {
+
+
+    .containerFlex {
+        flex-direction: column;
+    }
+    
+  .firstContainer, .title {
+
+    padding: 20px;
+    text-align:center;
+  }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
